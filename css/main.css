@@ -4,3 +4,28 @@ html {
 	font-family: 'Kurale', serif;
 	scroll-behavior: smooth;
 }
+
+img {
+	max-width: 100%;  height: auto;
+}
+
+
+.product {
+	height: 300px;
+}
+
+.about-product {
+	height: 100%;
+}
+
+.product-one {
+	background: url(../img/330.jpg) no-repeat center center / cover;
+}
+
+.product-two {
+	background: url(../img/660.jpg) no-repeat center center / cover;
+}
+
+.product-three {
+	background: url(../img/1000.jpg) no-repeat center center / cover;
+}
