@@ -1,3 +1,6 @@
-* {
+@import url(https://fonts.googleapis.com/css?family=Kurale&display=swap&subset=cyrillic);
+
+html {
+	font-family: 'Kurale', serif;
 	scroll-behavior: smooth;
 }
