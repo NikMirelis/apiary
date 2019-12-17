@@ -13,6 +13,11 @@ img {
 	text-align: center;
 }
 
+textarea {
+	width: 90%;
+	height: 100px;
+}
+
 .product {
 	color: white;
 	height: 200px;
