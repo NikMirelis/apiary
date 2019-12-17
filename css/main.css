@@ -11,21 +11,38 @@ img {
 
 
 .product {
-	height: 300px;
+	color: white;
+	height: 200px;
+}
+
+.product-one::before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+	filter: brightness(80%);
+	background: url(../img/330.jpg) no-repeat center center / cover;
+}
+
+.product-two::before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+	filter: brightness(80%);
+	background: url(../img/660.jpg) no-repeat center center / cover;
+}
+
+.product-three::before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+	filter: brightness(80%);
+	background: url(../img/1000.jpg) no-repeat center center / cover;
 }
 
 .about-product {
 	height: 100%;
-}
-
-.product-one {
-	background: url(../img/330.jpg) no-repeat center center / cover;
-}
-
-.product-two {
-	background: url(../img/660.jpg) no-repeat center center / cover;
-}
-
-.product-three {
-	background: url(../img/1000.jpg) no-repeat center center / cover;
+	position: relative;
 }
