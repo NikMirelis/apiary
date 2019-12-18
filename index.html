@@ -10,35 +10,31 @@
 	<title>Елисеева Пасека</title>
 </head>
 <body id="isHome">
-
-	<header id="header">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12">
-					<div class="head d-flex justify-content-between align-items-center">
-						<div class="home"><a href="/">Главая</a></div>
-						<div class="blog"><a href="#">Блог</a></div>
-						<div class="catalog"><a href="#">Каталог</a></div>
-						<div class="catalog"><a href="#footer">Контакты</a></div>
-					</div>
-				</div>
-				<div class="col-12">
-					<nav class="menu">
-						<ul class="">
-							<li><a href="#header-section">Натуральный мёд - сказка?</a></li>
-							<li><a href="#opening-section">Почему так происходит?</a></li>
-							<li><a href="#only-section">Лучший метод проверки качества</a></li>
-							<li><a href="#for-section">Что предлагаем мы?</a></li>
-							<li><a href="#about-section">О нас</a></li>
-							<li><a href="#cooments-section">Отзывы</a></li>
-							<li><a href="#price-section">Сколько стоит натуральный мёд?</a></li>
-							<li><a href="#bonus-section">Бонус</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
+<div id="app">
+	<header id="header" class="d-none justify-content-between">
+		<div class="logo"><a href=""><img src="" alt="Логотип"></a></div>
+		<div class="menu d-flex justify-content-between">
+			<div class="menu-item"><a href="#">Блог</a></div>
+			<div class="menu-item"><a href="#">Каталог</a></div>
+			<div class="menu-item"><a href="#">Контакты</a></div>
+		</div>
+		<div class="search">
+			<a href="#"><i class="fa fa-search"></i></a>
 		</div>
 	</header>
+
+	<nav class="menu d-none">
+			<ul class="">
+				<li><a href="#header-section">Натуральный мёд - сказка?</a></li>
+				<li><a href="#opening-section">Почему?</a></li>
+				<li><a href="#only-section">Лучший метод проверки качества</a></li>
+				<li><a href="#for-section">Что предлагаем мы?</a></li>
+				<li><a href="#about-section">О нас</a></li>
+				<li><a href="#cooments-section">Отзывы</a></li>
+				<li><a href="#price-section">Сколько стоит натуральный мёд?</a></li>
+				<li><a href="#bonus-section">Бонус</a></li>
+			</ul>
+		</nav>
 
 	<main>
 		<section id="header-section">
@@ -46,14 +42,7 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="title title-header">
-							<h1>Натуральный мёд — сказка?</h1>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12">
-						<div class="subtitle subtitle-header">
-							<h4>/ В пору употреблять это выражение без знака "?" /</h4>
+							<h1>Натуральный мёд — сказка</h1>
 						</div>
 					</div>
 				</div>
@@ -64,7 +53,7 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="title title-opening">
-							<h2>Почему так происходит?</h2>
+							<h2>Почему?</h2>
 						</div>
 						<div class="ssubtitle subtitile-opening">
 							<h3>Ответом послужит простая арифметика</h3>
@@ -88,14 +77,14 @@
 					<div class="col-12">
 						<div class="opening-busisman">
 							<div class="opening-busiman-item">
-								<h4>У "бизнесмена" уходит 5 минут</h4>
+								<h4>У сказочных бизнесменов уходит 5 минут</h4>
 							</div>
 							<div class="opening-busiman-item">
 								<p>Чтобы из 20 000 пчелиных жизней</p>
 							</div>
 							<div class="opening-busiman-item">
 								<p>Cделать 2,3,4 тонны коммерческого продукта</p>
-								<p>(Размеры зависят от масштабов совести "бизнесмена")</p>
+								<p>(Размеры зависят от масштабов совести сказочного бизнесмена)</p>
 							</div>
 							<div class="opening-busiman-item">
 								<p>Без совести можно обойтись без пчёл</p>
@@ -129,8 +118,9 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-12">
-						<div class="title title-order d-flex justify-content-center text-align-center">
-							<h3>Заказать натуральный мед прямо из улья на стол без посредников и сахара</h3>
+						<div class="title title-order">
+							<h2>Заказать натуральный мед</h2>
+							<h4>Прямо из улья на стол без посредников и сахара</h4>
 						</div>
 					</div>
 				</div>
@@ -555,6 +545,6 @@
 			</div>
 		</div>
 	</footer>
-	
+</div>
 </body>
 </html>
