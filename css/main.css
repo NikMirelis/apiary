@@ -4,11 +4,13 @@ html {
 	font-family: 'Kurale', serif;
 	font-size: 16px;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 img {
@@ -58,21 +60,26 @@ h2 {
 }
 
 h3 {
-	font-size: 1.7em;
+	font-size: 1.6em;
 	opacity: 90%;
 }
 
-h4 {
-	font-size: 1.4em;
+h4, h5, h6 {
 	color: var(--accent);
 }
 
-h5 {
+h4 {
 	font-size: 1.3em;
 }
 
-h6 {
+h5 {
 	font-size: 1.2em;
+	opacity: 90%;
+}
+
+h6 {
+	font-size: 1.1em;
+	opacity: 90%;
 }
 
 a {
@@ -81,6 +88,21 @@ a {
 
 p, li {
 	color: var(--text-dark);
+}
+
+.accent {
+	color: var(--warning);
+	font-size: 3em;
+	font-weight: bold;
+	margin: 0;
+}
+
+.subaccent {
+	color: var(--warning);
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
 }
 
 section {
@@ -103,11 +125,23 @@ section {
 }
 
 
-.bee {
-	color: var(--warning);
-	font-size: 3em;
-	font-weight: bold;
-	margin: 0;
+.opening-accent-number {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	right: 20px;
+}
+
+.why:before {
+	color: var(--main);
+	content: 'Почему?';
+	position: absolute;
+	top: 10px; left: 2px;
+	height: 100%; width: 100%;
+	opacity: 0.1;
+	font-size: 2em;
+	transform: rotate(0deg);
 }
 
 .logo img {
