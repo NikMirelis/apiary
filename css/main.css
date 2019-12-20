@@ -36,12 +36,12 @@ img {
 
 	--main: #F1A011;
 	--accent: #ce5f05;
-	--bg-dark:	#512927;
-	--bg-light: #f5f5f5;
-	--text-light: #f1f1f1;
+	--bg-dark:	#270000;
+	--bg-light: #f3f3f3;
+	--text-light: #e4e2e2;
 	--text-dark: #000000;
 	--link: #B93D25;
-	--warning: #ce2d05;
+	--warning: rgb(204, 45, 5);
 }
 
 
@@ -60,8 +60,8 @@ h2 {
 }
 
 h3 {
-	font-size: 1.6em;
-	opacity: 90%;
+	font-size: 1.4em;
+	opacity: 95%;
 }
 
 h4, h5, h6 {
@@ -90,14 +90,26 @@ p, li {
 	color: var(--text-dark);
 }
 
-.accent {
+.warning {
+	position: relative;
 	color: var(--warning);
+	text-shadow: 10px 5px 0px rgba(204, 45, 5, 0.1);
 	font-size: 3em;
 	font-weight: bold;
 	margin: 0;
 }
 
+.accent {
+	position: relative;
+	color: var(--accent);
+	text-shadow: 5px 3px 0px rgba(204, 45, 5, 0.1);
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0;
+}
+
 .subaccent {
+	position: relative;
 	color: var(--warning);
 	font-size: 1em;
 	font-weight: normal;
@@ -109,7 +121,7 @@ section {
 	background: var(--bg-light);
 }
 
-#header-section:nth-child(odd) {
+#header-section {
 	position: relative;
 	background: url(../img/bg.jpeg) no-repeat center center / cover;
 }
@@ -120,8 +132,8 @@ section {
 	top: 0; left: 0;
 	height: 100%; width: 100%;
 	background: rgb(48,16,58);
-	background: linear-gradient(260deg, var(--bg-dark) 0%, #382001 100%);
-	opacity: 85%; 
+	background: linear-gradient(260deg, #000000 0%, #3a0000 100%);
+	opacity: 80%; 
 }
 
 
@@ -133,15 +145,146 @@ section {
 	right: 20px;
 }
 
+.number-one::before {
+	content: '';
+	position: absolute;
+	top: 120px; left: -190px;
+	height: 50px; width: 50px;
+	background: url(../img/botl.png) no-repeat center center / cover;
+	border-bottom: 5px solid var(--bg-dark);
+	border-radius: 5px;
+}
+
+.number-two::before {
+	content: '';
+	position: absolute;
+	top: 120px; left: -190px;
+	height: 50px; width: 250px;
+	background: url(../img/botls.png) no-repeat center center / cover;
+	border-bottom: 5px solid var(--bg-dark);
+	border-radius: 5px;
+}
+
+.opening-bee-item {
+	position: relative;
+}
+
+.text-opening {
+	margin: 70px 0 0 0;
+}
+
 .why:before {
 	color: var(--main);
 	content: 'Почему?';
 	position: absolute;
-	top: 10px; left: 2px;
+	top: 0px; left: 2px;
 	height: 100%; width: 100%;
 	opacity: 0.1;
 	font-size: 2em;
 	transform: rotate(0deg);
+}
+
+.end-opening {
+	margin: 25px 0 0 0;
+}
+
+
+#head-only-section {
+	position: relative;
+	background: url(../img/bg-only.jpg) no-repeat center center / cover;
+}
+
+
+#head-only-section::before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+	background: rgb(48,16,58);
+	background: linear-gradient(260deg, #270000 0%, #000000 100%);
+	opacity: 80%; 
+}
+
+#visit-section {
+	position: relative;
+	background: url(../img/bg-only.jpg) no-repeat center center / cover;
+}
+
+
+#visit-section::before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+	background: rgb(48,16,58);
+	background: linear-gradient(260deg, #270000 0%, #000000 100%);
+	opacity: 80%; 
+}
+
+
+#order-section {
+	position: relative;
+	background: url(../img/bg-only.jpg) no-repeat center center / cover;
+}
+
+
+#order-section::before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+	background: rgb(48,16,58);
+	background: linear-gradient(260deg, #270000 0%, #000000 100%);
+	opacity: 80%; 
+}
+
+.order-section {
+	position: relative;
+	background: url(../img/bg-only.jpg) no-repeat center center / cover;
+}
+
+
+.order-section::before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+	background: rgb(48,16,58);
+	background: linear-gradient(260deg, #270000 0%, #000000 100%);
+	opacity: 80%; 
+}
+
+
+#head-comments-section {
+	position: relative;
+	background: url(../img/bg-only.jpg) no-repeat center center / cover;
+}
+
+
+#head-comments-section::before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+	background: rgb(48,16,58);
+	background: linear-gradient(260deg, #270000 0%, #000000 100%);
+	opacity: 80%; 
+}
+
+#head-price-section {
+	position: relative;
+	background: url(../img/bg-only.jpg) no-repeat center center / cover;
+}
+
+
+#head-price-section::before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+	background: rgb(48,16,58);
+	background: linear-gradient(260deg, #270000 0%, #000000 100%);
+	opacity: 80%; 
 }
 
 .logo img {
