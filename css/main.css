@@ -101,7 +101,7 @@ p, li {
 
 .accent {
 	position: relative;
-	color: var(--accent);
+	color: var(--warning);
 	text-shadow: 5px 3px 0px rgba(204, 45, 5, 0.1);
 	font-size: 1.5em;
 	font-weight: bold;
@@ -124,6 +124,7 @@ section {
 #header-section {
 	position: relative;
 	background: url(../img/bg.jpeg) no-repeat center center / cover;
+	height: 250px;
 }
 
 #header-section::before {
@@ -132,10 +133,25 @@ section {
 	top: 0; left: 0;
 	height: 100%; width: 100%;
 	background: rgb(48,16,58);
+	background: -webkit-linear-gradient(260deg, #000000 0%, #3a0000 100%);
+	background: -o-linear-gradient(260deg, #000000 0%, #3a0000 100%);
+	background: -moz-linear-gradient(260deg, #000000 0%, #3a0000 100%);
 	background: linear-gradient(260deg, #000000 0%, #3a0000 100%);
-	opacity: 80%; 
+	opacity: 0.6; 
 }
 
+.title-header {
+	height: 250px;
+}
+
+.subtitile-opening {
+	margin: 0 0 25px 0;
+}
+
+
+#opening-section {
+	padding: 50px 0 80px 0;
+}
 
 .opening-accent-number {
 	position: relative;
@@ -144,33 +160,19 @@ section {
 	height: 100%;
 	right: 20px;
 }
-
-.number-one::before {
-	content: '';
-	position: absolute;
-	top: 120px; left: -190px;
-	height: 50px; width: 50px;
-	background: url(../img/botl.png) no-repeat center center / cover;
-	border-bottom: 5px solid var(--bg-dark);
-	border-radius: 5px;
-}
-
-.number-two::before {
-	content: '';
-	position: absolute;
-	top: 120px; left: -190px;
-	height: 50px; width: 250px;
-	background: url(../img/botls.png) no-repeat center center / cover;
-	border-bottom: 5px solid var(--bg-dark);
-	border-radius: 5px;
-}
-
 .opening-bee-item {
 	position: relative;
 }
 
-.text-opening {
-	margin: 70px 0 0 0;
+.honey-botls img {
+	height: 50px;
+	margin: 50px 0 0 0;
+}
+
+.honey-botls {
+	border-bottom: 5px solid var(--text-dark);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 .why:before {
@@ -201,8 +203,11 @@ section {
 	top: 0; left: 0;
 	height: 100%; width: 100%;
 	background: rgb(48,16,58);
+	background: -webkit-linear-gradient(260deg, #270000 0%, #000000 100%);
+	background: -o-linear-gradient(260deg, #270000 0%, #000000 100%);
+	background: -moz-linear-gradient(260deg, #270000 0%, #000000 100%);
 	background: linear-gradient(260deg, #270000 0%, #000000 100%);
-	opacity: 80%; 
+	opacity: 0.6;
 }
 
 #visit-section {
@@ -217,8 +222,11 @@ section {
 	top: 0; left: 0;
 	height: 100%; width: 100%;
 	background: rgb(48,16,58);
+	background: -webkit-linear-gradient(260deg, #270000 0%, #000000 100%);
+	background: -o-linear-gradient(260deg, #270000 0%, #000000 100%);
+	background: -moz-linear-gradient(260deg, #270000 0%, #000000 100%);
 	background: linear-gradient(260deg, #270000 0%, #000000 100%);
-	opacity: 80%; 
+	opacity: 0.6;
 }
 
 
@@ -234,26 +242,12 @@ section {
 	top: 0; left: 0;
 	height: 100%; width: 100%;
 	background: rgb(48,16,58);
+	background: -webkit-linear-gradient(260deg, #270000 0%, #000000 100%);
+	background: -o-linear-gradient(260deg, #270000 0%, #000000 100%);
+	background: -moz-linear-gradient(260deg, #270000 0%, #000000 100%);
 	background: linear-gradient(260deg, #270000 0%, #000000 100%);
-	opacity: 80%; 
+	opacity: 0.6;
 }
-
-.order-section {
-	position: relative;
-	background: url(../img/bg-only.jpg) no-repeat center center / cover;
-}
-
-
-.order-section::before {
-	content: "";
-	position: absolute;
-	top: 0; left: 0;
-	height: 100%; width: 100%;
-	background: rgb(48,16,58);
-	background: linear-gradient(260deg, #270000 0%, #000000 100%);
-	opacity: 80%; 
-}
-
 
 #head-comments-section {
 	position: relative;
@@ -267,8 +261,11 @@ section {
 	top: 0; left: 0;
 	height: 100%; width: 100%;
 	background: rgb(48,16,58);
+	background: -webkit-linear-gradient(260deg, #270000 0%, #000000 100%);
+	background: -o-linear-gradient(260deg, #270000 0%, #000000 100%);
+	background: -moz-linear-gradient(260deg, #270000 0%, #000000 100%);
 	background: linear-gradient(260deg, #270000 0%, #000000 100%);
-	opacity: 80%; 
+	opacity: 0.6;
 }
 
 #head-price-section {
@@ -283,8 +280,11 @@ section {
 	top: 0; left: 0;
 	height: 100%; width: 100%;
 	background: rgb(48,16,58);
+	background: -webkit-linear-gradient(260deg, #270000 0%, #000000 100%);
+	background: -o-linear-gradient(260deg, #270000 0%, #000000 100%);
+	background: -moz-linear-gradient(260deg, #270000 0%, #000000 100%);
 	background: linear-gradient(260deg, #270000 0%, #000000 100%);
-	opacity: 80%; 
+	opacity: 0.6;
 }
 
 .logo img {
@@ -326,4 +326,56 @@ section {
 .about-product {
 	height: 100%;
 	position: relative;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+	.subtitile-opening {
+		margin: 0 0 50px 0;
+	}
+
+}
+
+@media (min-width: 992px) {
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2.5em;
+	opacity: 95%;
+}
+
+h4 {
+	font-size: 2.4em;
+}
+
+h5 {
+	font-size: 2.2em;
+	opacity: 90%;
+}
+
+h6 {
+	font-size: 2.1em;
+	opacity: 90%;
+}
+
+.warning {
+	font-size: 5em;
+}
+
+.subaccent {
+	font-size: 2em;
+}
+}
+
+@media (min-width: 1200px) {
+
 }
