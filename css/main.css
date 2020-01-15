@@ -42,6 +42,7 @@ img {
 	--text-dark: #000000;
 	--link: #B93D25;
 	--warning: rgb(204, 45, 5);
+	--tss: 0.5s;
 }
 
 
@@ -230,13 +231,13 @@ section {
 }
 
 
-#order-section {
+.order-section {
 	position: relative;
 	background: url(../img/bg-only.jpg) no-repeat center center / cover;
 }
 
 
-#order-section::before {
+.order-section::before {
 	content: "";
 	position: absolute;
 	top: 0; left: 0;
@@ -329,15 +330,86 @@ section {
 }
 
 .title {
-	padding: 20px 0 0px 0;
+	padding: 30px 0 0px 0;
 }
 
 .subtitle-only {
 	padding: 15px 0 25px 0;
 }
 
-.buttom-only {
-	
+.button-only {
+	margin: 0 0 20px 0;
+}
+
+.button a {
+	background: var(--accent);
+	padding: 15px 30px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+	border-radius: 30px;
+	transition: var(--tss);
+}
+
+.button a:hover {
+	background: var(--link);
+}
+
+.title-visit {
+	padding: 25px 0 30px 0 ;
+}
+
+.free-visit {
+	padding: 0 0 30px 0;
+}
+
+.list-for ul {
+	list-style: none;
+	display: inline-block;
+	padding: 0 0 0 15px;
+}
+
+.list-for li {
+	padding: 15px 0 0 0;
+}
+
+.button-order {
+ margin: 50px 0 30px 0;
+}
+
+.subtitle-order {
+	margin: 0 0 30px 0;
+}
+
+.list-for {
+	font-size: 24px;
+}
+
+#for-section {
+	padding: 0 0 30px 0;
+}
+
+.number a {
+	text-decoration: none;
+}
+
+.title-number h3:hover {
+	color: var(--link);
+}
+
+.title-number h3 {
+	transition: var(--tss);
+}
+.title-number {
+	margin: 0 20px 30px;
+}
+
+#alternative-section {
+	padding:  0 0 30px 0;
+}
+
+.subtitile-offer {
+	margin: 20px 0 0 0;
 }
 
 @media (min-width: 576px) {
